@@ -44,7 +44,7 @@ li{
     background-color: #fff;
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     width: 0;
     height: 100%;
     z-index: -1;
@@ -54,10 +54,12 @@ li{
 .btn-red:hover{
     color: #0b1e33;
     border: 1px solid #0b1e33;
+    
 }
 
 .btn-red:hover::before{
     width: 100%;
+    left: 0;
 }
 
 .btn-black{
